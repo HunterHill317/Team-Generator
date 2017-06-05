@@ -1,0 +1,84 @@
+<?php
+ 
+$m1 = "Alarak";  
+$m3 = "Zeratul";  
+$m4 = "Tracer";  
+$m2 = "Tychus";  
+$m6 = "Cassia";  
+$m7 = "Ragnaros";  
+$m8 = "Zul'jin";  
+$m9 = "Raynor";  
+$m10 = "Chromie";  
+$m11 = "Valeera";  
+$m12 = "Valla";  
+$m13 = "Kael'thas";  
+$m14 = "Kerrigan";  
+$m15 = "Falstad";  
+$m16 = "Genji";  
+$m18 = "Greymane";
+$m19 = "Gul'dan";
+$m20 = "Illidan";
+$m21 = "Jaina";
+$m17 = "Thrall";
+$m22 = "Li-Ming";
+$m23 = "The Butcher";
+$m24 = "Lunara";
+$m25 = "Sonya";
+$m26 = "Nova";
+$m27 = "Samuro";
+$m28 = "Azmodan";
+$m29 = "Zagara";  
+$m30 = "Xul";
+$m31 = "Gazlowe";
+$m32 = "Tyrande";
+$m33 = "The Lost Vikings";  
+$m34 = "Sylvanas";
+$m35 = "Tassadar";
+$m36 = "Sgt. Hammer";
+$m37 = "Medivh";
+$m38 = "Murky";
+$m39 = "Nazeebo";
+$m40 = "Probius";
+$m41 = "Auriel";  
+$m42 = "Uther";  
+$m43 = "Rehgar";  
+$m44 = "Brightwing";  
+$m45 = "Kharazim";  
+$m46 = "Lt. Morales";  
+$m47 = "Li Li";  
+$m48 = "Lucio";  
+$m49 = "Malfurion";  
+$m50 = "Anub'arak";  
+$m51 = "Varian";  
+$m52 = "Artanis";  
+$m53 = "Arthas";  
+$m54 = "Tyrael";  
+$m55 = "Chen";  
+$m56 = "D.Va";  
+$m57 = "Dehaka";  
+$m58 = "Diablo";  
+$m59 = "ETC";  
+$m60 = "Stitches";  
+$m61 = "Zarya";
+$m62 = "Rexxar";
+$m63 = "Johanna";  
+$m64 = "Leoric";  
+$m65 = "Muradin";  
+ 
+$rmD = array($m1, $m2, $m3, $m4, $m6, $m7, $m8, $m9, $m10, $m11, $m12, $m13, $m14, $m15, $m16, $m17, $m18, $m19, $m20, $m21, $m22, $m23, $m24, $m25, $m26, $m27);
+$random_keys = array_rand($rmD,1);
+echo $rmD[$random_keys].", ";
+ 
+$rmS = array($m28, $m29, $m30, $m31, $m32, $m33, $m34, $m35, $m36, $m37, $m38, $m39, $m40);
+$random_keys = array_rand($rmS,1);
+echo $rmS[$random_keys].", ";
+ 
+$rmH = array($m41, $m42, $m43, $m44, $m45, $m46, $m47, $m48, $m49);
+$random_keys = array_rand($rmH,1);
+echo $rmH[$random_keys].", ";
+ 
+$rmT = array($m50, $m51, $m52, $m53, $m54, $m55, $m56, $m57, $m58, $m59, $m60, $m61, $m62, $m63, $m64);
+$random_keys = array_rand($rmT,2);
+echo $rmT[$random_keys[0]].", ";
+echo $rmT[$random_keys[1]];
+?>
